@@ -9,6 +9,7 @@ R-U-Root
 prerequisites
 build-setup
 configs
+heavy-lifting
 }
 
 
@@ -114,6 +115,11 @@ function configs
 cat ./auto-config > ./auto/config
 }
 
-
+function heavy-lifting
+{
+	lb clean
+	lb config
+	lb build
+}
 #run it!
 main
