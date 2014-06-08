@@ -16,7 +16,7 @@ clone it into a working directory
 
 run:
 
-    go.sh
+    ./go.sh
     
     
 drink beer and watch the world turn
